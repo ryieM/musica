@@ -1,0 +1,144 @@
+@font-face { 
+    font-family: font;
+    src: url(ZoodHardSell2bold.ttf);
+}
+
+body{
+    background-image: url(images/2.png);
+    background-color: black;
+    background-size: cover; 
+    font-family: font;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+table {text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: black;
+    background-size:cover;
+}
+ul.menu {
+    background: hotpink;
+    list-style-type: none;
+    padding: 0 10% 0 10%;
+    overflow: auto;
+    margin-top: 0.5em;
+    border-radius: 20px;
+}
+ul.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2em;
+    float: left;
+    padding: 0.5em 1em 0.5em 1em;
+}
+ul.menu li a:hover {
+    color: fuchsia;
+    font-size: 1.05em;
+}
+#h1hd{
+    color: deeppink;
+}
+.jp{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgb(242, 136, 189);
+    box-shadow: 0 40px 100px rgba(255,255,255,0.4);
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 90px;
+    animation: pulse 2s linear infinite;
+}
+.kr{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: hotpink ;
+    box-shadow: 0 40px 100px rgba(255,255,255,0.4);
+    padding: 30px;
+    overflow: hidden;
+    margin: -300px 580px 400px ;
+    animation: pulse 2.5s linear infinite;
+}
+.eng{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: deeppink ;
+    box-shadow: 0 40px 100px rgba(255,255,255,0.4);
+    padding: 30px;
+    overflow: hidden;
+    margin: -705px 1055px 400px ;
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0;
+    }
+    50%{
+        box-shadow: 0 0 0 5px rgba(255,255,255,0.4);
+    }
+    100%{
+        box-shadow: 0 0 0 5px deeppink,0.8;
+    }
+}
+
+footer{
+    background: hotpink;
+    color: black;
+    font-size: 1.25em;
+    padding: 1em 10% 1em 20%;
+    margin-top: -150px;
+    border-radius: 30px;
+}
+footer>section:first-child{
+        float: right;
+        width: 40%;
+}
+.disk{
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 0 0 0 10px rgba(255,255,255,0.08);
+}
+#topic{
+    text-align: center;
+    margin-top: 40px;
+}
+#txtjp{
+    font-size: 50px;
+    color: rgb(242, 136, 189);;
+}
+#txtkr{
+    color: hotpink;
+    font-size: 50px;
+}
+#txteng{
+    color: deeppink;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#txtjp a:hover{
+    color: fuchsia;
+}
+#txtkr a:hover{
+    color: fuchsia;
+}
+#txteng a:hover{
+    color: fuchsia;
+}
+
+

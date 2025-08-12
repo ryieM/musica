@@ -1,0 +1,55 @@
+@font-face { 
+    font-family: font;
+    src: url(ZoodHardSell2bold.ttf);
+}
+
+body{
+    background-image: url(images/2.png);
+    background-color: black;
+    background-size: cover; 
+    font-family: font;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+table {text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: black;
+    background-size:cover;
+}
+ul.menu {
+    background: hotpink;
+    list-style-type: none;
+    padding: 0 10% 0 10%;
+    overflow: auto;
+    margin-top: 0.5em;
+    border-radius: 20px;
+}
+ul.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2em;
+    float: left;
+    padding: 0.5em 1em 0.5em 1em;
+}
+ul.menu li a:hover {
+    color: fuchsia;
+    font-size: 1.05em;
+}
+footer{
+    background: hotpink;
+    color: black;
+    font-size: 1.25em;
+    padding: 1em 10% 1em 20%;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+footer>section:first-child{
+        float: right;
+        width: 40%;
+}
+#h1hd{
+    color: deeppink;
+}
+
